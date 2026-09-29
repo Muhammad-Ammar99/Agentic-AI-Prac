@@ -8,3 +8,4 @@ langchain-cerebras
 langgraph
 langsmith
 ipykernel
+langchain-tavily
