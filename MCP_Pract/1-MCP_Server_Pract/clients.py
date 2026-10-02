@@ -3,7 +3,7 @@ import os
 
 from dotenv import load_dotenv
 from langchain_mcp_adapters.client import MultiServerMCPClient
-from langgraph.prebuilt import create_react_agent
+from langchain.agents import create_agent
 from langchain_openai import ChatOpenAI
 
 load_dotenv()
@@ -19,7 +19,7 @@ async def main():
                 "transport": "stdio",
             },
             "weather": {
-                "url": "http://localhost:8000",
+                "url": "http://localhost:8000/mcp",
                 "transport": "streamable-http",
             },
         }
@@ -41,7 +41,7 @@ async def main():
     )
 
     # Create agent with MCP tools
-    agent = create_react_agent(
+    agent = create_agent(
         model=model,
         tools=tools,
     )
@@ -50,6 +50,8 @@ async def main():
     response = await agent.ainvoke(
         {"messages": [{"role": "user", "content": "What is (5 + 3) * 12?"}]}
     )
+    for m in response["messages"]:
+        m.pretty_print()
 
     print("\nFinal Response:")
     print(response["messages"][-1].content)
