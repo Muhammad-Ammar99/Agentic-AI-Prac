@@ -4,3 +4,8 @@ langchain-community
 pypdf
 pymupdf
 ipykernel
+openpyxl
+unstructured
+networkx
+pandas
+msoffcrypto
