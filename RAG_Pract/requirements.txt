@@ -8,4 +8,4 @@ openpyxl
 unstructured
 networkx
 pandas
-msoffcrypto
+msoffcrypto-tool
