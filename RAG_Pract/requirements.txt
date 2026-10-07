@@ -12,3 +12,11 @@ msoffcrypto-tool
 sentence-transformers
 faiss-cpu
 chromadb
+langchain-openai
+langchain-groq
+python-dotenv
+langchain-google-genai
+langchain-cerebras
+langgraph
+langsmith
+langchain-tavily
