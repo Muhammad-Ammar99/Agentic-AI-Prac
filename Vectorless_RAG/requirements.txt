@@ -1,0 +1,6 @@
+pageindex
+openai
+python-dotenv
+ipykernel
+langchain
+langchain-openai

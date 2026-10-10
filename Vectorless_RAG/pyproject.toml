@@ -7,7 +7,14 @@ authors = [
     { name = "Muhammad Ammar", email = "ammarahmer59@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.4.0",
+    "langchain>=1.4.4",
+    "langchain-openai>=1.7.0",
+    "openai>=3.28.0",
+    "pageindex>=0.2.8.1",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 vectorless-rag = "vectorless_rag:main"
