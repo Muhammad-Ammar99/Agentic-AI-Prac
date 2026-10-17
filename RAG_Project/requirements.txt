@@ -21,3 +21,4 @@ langgraph
 langsmith
 langchain-tavily
 pageindex
+langchain-huggingface
