@@ -22,3 +22,4 @@ langsmith
 langchain-tavily
 pageindex
 langchain-huggingface
+streamlit
