@@ -1,7 +1,4 @@
-"""Reusable ReAct RAG agent extracted from RAG_Model(1).ipynb.
-
-The Streamlit UI imports `graph` from this module instead of duplicating agent code.
-"""
+"""Reusable ReAct RAG agent extracted from RAG_Model(1).ipynb."""
 
 import os
 from pathlib import Path
