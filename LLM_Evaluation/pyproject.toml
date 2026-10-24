@@ -7,7 +7,11 @@ authors = [
     { name = "Muhammad Ammar", email = "ammarahmer59@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.4.0",
+    "langsmith>=0.14.12",
+    "openai>=3.37.0",
+]
 
 [project.scripts]
 llm-evaluation = "llm_evaluation:main"

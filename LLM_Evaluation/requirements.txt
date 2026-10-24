@@ -1,0 +1,3 @@
+ipykernel
+langsmith
+openai
