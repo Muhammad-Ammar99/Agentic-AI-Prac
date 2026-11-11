@@ -20,5 +20,5 @@ langchain-cerebras
 langgraph
 langsmith
 langchain-tavily
-
+langchain-huggingface
 
