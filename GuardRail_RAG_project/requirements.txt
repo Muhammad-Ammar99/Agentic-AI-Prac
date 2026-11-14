@@ -21,4 +21,4 @@ langgraph
 langsmith
 langchain-tavily
 langchain-huggingface
-
+reportlab
